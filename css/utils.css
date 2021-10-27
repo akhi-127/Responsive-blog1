@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+:root{
+    --main-bg-color: rgb(170 70 70 / 87%);
+    --font1:'Bree Serif', serif;
+    --font2:'Roboto' , sans-serif;
+}
+.font1{ font-family: var(--font1); }
+.font2{ font-family: var(--font2); }
+
+.max-width-1{
+    max-width: 80vw;
+   
+}
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+.h-auto{
+    height: auto;
+}
+
+.btn{
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px 11px;
+    font-family: var(--font1);
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color:wheat ;
+    background: var(--main-bg-color);
+}
+.form-input{
+    padding: 3px 14px;
+    margin: 0px 12px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 14px;
+    font-family: var(--font1);
+}
+
+.form-box input , textarea{
+    font-family: var(--font2);
+    width: 40vw;
+    padding: 10px 4px;
+    margin: 1px;
+    border: 2px solid rgb(139 78 78 / 87%);
+    border-radius: 11px;
+    font-size: 13.2px;
+}

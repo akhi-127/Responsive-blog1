@@ -1,0 +1,18 @@
+
+.contact-content{
+    background-color: rgba(0, 0, 255,0.123);
+    height: 455px;
+    margin-top: 16px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    /* background-image: url(../img/free-business-office-vector-illustration.jpg); */
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.16;
+    border-radius: 11px;
+    z-index: -1;
+}

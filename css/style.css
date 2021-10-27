@@ -1,0 +1,126 @@
+*{
+    margin: 5px;
+    padding: 0px;
+
+}
+.navigation{
+    margin-top: 25px;
+    font-family: var(--font1);
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{    
+    display: flex;
+}
+.nav-left span{
+    padding-bottom: 12px;
+    font-size: 35px;
+}
+.nav-left ul{
+    font-family: var(--font2);
+    display: flex;
+    align-items: center;
+    margin: 0px 77px;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+.nav-left ul li{
+    font-family: var(--font2);
+    list-style: none;
+    margin: 0px 14px;
+}
+.nav-left ul li a{
+   text-decoration: none;
+   color: black;
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+.nav-right{
+
+}
+.content{
+    display: flex;
+    background-color: rgba(0, 0, 255,0.123);
+    height: 355px;
+    margin-top: 16px;
+    height: 70vh;
+}
+.content-left{
+    font-family: Var(--font1);
+    width: 50%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+.content-left h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.content-right img{ 
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 250px;
+}
+.home-articals{
+    background-color: rgb(187 169 169 / 40%);
+    position: relative;
+}
+.year-box{
+    width: 147px;
+    height: 112px;
+    /* background-color: red; */
+    position: absolute;
+    right: 389px;
+    top: 20px;
+    font-size: 18px;
+}
+.year-box div{
+    margin: 12px 0px;
+
+}
+.home-articals h2{
+    font-family: var(--font1);
+    padding-top: 13px;
+    padding-left: 15px;
+}
+.home-artical{
+    display: flex;
+    padding: 5px;
+}
+.home-artical-content a{
+    text-decoration: none;
+    color: rgb(61, 61, 138);
+}
+.home-articals img{
+    width: 280px;
+}
+.home-artical-content{
+    align-self: center;
+    font-family: 'Bree Serif';
+    font-size: large;
+}
+
+
+
+.footer{
+    /* background-color: rgba(44, 41, 41, 0.712); */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

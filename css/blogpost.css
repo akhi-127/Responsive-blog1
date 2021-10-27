@@ -1,0 +1,33 @@
+.post-img{
+    height: 423px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    
+}
+.post-img img{
+    width: 83%;
+    height: 355px;
+    padding-top: 789px;
+}
+.row{
+    display: flex;
+   
+}
+.more-post{
+    padding: 11px 38px;
+    flex-direction: column;
+}
+.blogpost-meta{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.author-info div{
+    /* padding: 4px 12px; */
+    font-family: var(--font2);
+}
+.social{
+    cursor: pointer;
+}

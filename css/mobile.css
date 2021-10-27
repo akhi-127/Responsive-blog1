@@ -1,0 +1,83 @@
+@media screen and (max-width: 1156px){
+    * {
+        margin: 3px;
+        padding: 0px;
+    }
+    .navigation{
+        flex-direction: column;
+        margin-bottom:122px
+    }
+    .nav-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-left ul {
+        font-family: var(--font2);
+        display: flex;
+        align-items: center;
+        margin: 0px 77px;
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .nav-left span {
+        padding-bottom: 13px;
+        font-size: 40px;
+    }
+    .content-right{
+        display: none;
+    }
+    .form-input {
+        padding: 3px 0px;
+        margin: 0px 3px;
+    }
+    .home-artical{
+        flex-direction: column;
+    }
+    .home-artical {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+    }
+    .home-artical-content {
+        align-self: center;
+        font-family: 'Bree Serif';
+        font-size: 22px;
+        padding-right: 0px;
+    }
+    .home-artical-img{
+        width: 70vw;
+        text-align: center;
+    }
+    .home-articals h2 {
+        padding-bottom: 12px;
+    }
+    .max-width-1 {
+        max-width: 96vw;
+    }
+    .year-box {
+        top: 42px;
+        left: 54vw;
+        height: 0px;
+        font-size: 10px;
+        display: flex;
+    }
+    .year-box div{
+        margin: 0px 3px;
+        padding: 0px;
+    }
+    .form-box input, textarea {
+    font-family: var(--font2);
+    width: 78vw;
+    padding: 10px 4px;
+    margin: 1px;
+    border: 2px solid rgb(139 78 78 / 87%);
+    border-radius: 11px;
+    font-size: 13.2px;
+}
+    .content-left p{
+        font-size: 12px;
+
+    }
+    
+}
